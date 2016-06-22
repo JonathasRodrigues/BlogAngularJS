@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="blog">
+	<head>
+		<title>Blog Angular JS</title>
+		<link href="assets/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"></link>
+		<link href="assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet"></link>
+		<link href="assets/css/blog-post.css" rel="stylesheet"></link>
+	</head>
+	<body>
+		<header ui-header></header>
+	    <div ui-view></div>
+	    <footer ui-footer></footer>
+
+		<script src="assets/libs/angular/angular.min.js"></script>
+		<script src="assets/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="assets/libs/jquery/dist/jquery.min.js"></script>
+		<script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="app/app.modules.js"></script>
+		<script src="app/app.routes.js"></script>
+		<script src="app/shared/header/header.directive.js"></script>
+		<script src="app/shared/footer/footer.directive.js"></script>
+		<script src="app/shared/sidebar/sidebar.directive.js"></script>
+		<script src="app/shared/post/post.directive.js"></script>
+		<script src="app/components/home/home.controller.js"></script>
+		<script src="app/components/home/home.service.js"></script>
+		<script src="app/components/about/about.controller.js"></script>
+		<script src="app/components/contact/contact.controller.js"></script>
+		<script src="app/components/new/new.controller.js"></script>
+		<script src="app/components/new/new.service.js"></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<div ng-repeat="post in posts">
+    <h1>{{ post.title}}</h1>
+                        
+    <p class="lead">
+        by <a href="#">{{ post.author }}</a>
+    </p>
+                        
+    <!--<hr>-->
+    <!-- Date/Time -->
+    <!-- <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date }}</p>-->
+                        
+    <hr>
+    <!-- Preview Image -->
+    <img class="img-responsive" src="{{ post.img }}" alt="">
+                        
+    <hr>
+    <!-- Post Content -->
+    <p class="lead">{{ post.content }}</p>
+        
+    <hr>
+    
+    <hr>
+</div>
